@@ -1,0 +1,10 @@
+@import '../../variables.scss';
+
+.userMasseges {
+  width: 100%;
+  height: calc(100vh - $header-height);
+  padding: 25px 34px 28px;
+  overflow: auto;
+  position: relative;
+  background-color: $white;
+}

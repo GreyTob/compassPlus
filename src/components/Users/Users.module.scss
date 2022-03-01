@@ -1,0 +1,9 @@
+@import '../../variables.scss';
+
+.users {
+  width: 100%;
+  height: calc(100vh - $header-height);
+  padding: 25px 14px;
+  overflow: auto;
+  background-color: $white;
+}

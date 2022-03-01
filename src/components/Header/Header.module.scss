@@ -1,0 +1,37 @@
+@import '../../variables.scss';
+
+.header {
+  width: 100%;
+  height: $header-height;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px;
+  color: $white;
+
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: $black-brown;
+
+  font-size: 18px;
+  line-height: 21px;
+
+  &__user {
+    display: flex;
+    align-items: center;
+
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  img {
+    width: 64px;
+    height: 64px;
+    margin-right: 14px;
+    border-radius: 50%;
+    background-color: $white;
+    object-fit: cover;
+  }
+}
